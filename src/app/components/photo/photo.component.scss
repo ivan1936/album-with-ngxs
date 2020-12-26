@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+
+img {
+  width: 70vw;
+  height: 70vh;
+  margin-top: 15px;
+  object-fit: cover;
+}
+
+.description {
+  font: 1.2em sans-serif;
+  padding-top: 10px;
+}
